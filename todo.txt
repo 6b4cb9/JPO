@@ -1,0 +1,4 @@
+1. Fabryka postaci + pocz¹tek fab³y
+2. Ekran powitalny + otwarcie konsoli z odpowiednimi parametrami
+3. klasa Game
+4. fabu³a=lista zobowi¹zañ+flaga(obserwator)?
