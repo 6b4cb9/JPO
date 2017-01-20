@@ -1,0 +1,6 @@
+While trying to get to the castle, you have been observed by the castle guard. They recognized you as dangerous enemy and put you into the prison. You resisted their decision and tried breaking out of their hands. In consequently they have beaten you. Now, you are imprisoned.
+
+You lose:
+ -5 HP
+ -2 Strength
+ -5 Gold

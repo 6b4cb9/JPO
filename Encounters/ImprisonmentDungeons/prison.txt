@@ -1,0 +1,5 @@
+You are in the prison in Dungeons. You are trying to recover after being beaten by guards. Guards periodically changing guard. You are observing their behavior and trying to figure out how to escape from here. Suddenly you see a hole in the corner of the cell. 
+This is your only chance. 
+Do you decide to escape? <1> Yes <2> No
+
+---->Your choice:

@@ -1,0 +1,8 @@
+Good job. You have made most of route to freedom, but the Dungeons writhe like a snake. 
+During the exploring of dungeons you find on the ground old book with magic spell. Do you want to take it?
+Magic spell can give you:
++3 INTELLIGENCE
++3 WISDOM
+-1 STRENGTH (cause it heavy book)
+
+Do you want to take it? <1> Yes <2> No
