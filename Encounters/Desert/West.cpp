@@ -4,7 +4,7 @@ using namespace std;
 bool Desert::West(void) {
 	bool check;
 	char choice;
-	srand(time(NULL));
+	srand((unsigned int)time(NULL));
 	cout << "It's growing dark. You meet Gunslinger." << endl;
 	cout << "Hello, do you want to be my companion?  (1) Yes / (2) No" << endl;
 	do {

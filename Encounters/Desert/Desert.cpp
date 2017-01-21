@@ -7,7 +7,7 @@ bool Desert::Proceed(Character* t_Adventurer) {
 	bool check;
 	system("cls");
 	cout << "After long journey through the mountains you reached the Blood Desert... Good luck... " << endl;
-	srand(time(NULL));
+	srand((unsigned int)time(NULL));
 	int rand_choice = rand() % 1 + 1;
 	getchar();
 	cout << "Look! It's oasis! Come on, have some water." << endl;

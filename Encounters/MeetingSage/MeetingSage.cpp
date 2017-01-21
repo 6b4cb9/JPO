@@ -112,7 +112,7 @@ bool MeetingSage::Proceed(Character * Character)
 
 	vector <int> my_numbers;
 	text1.press_any();
-	srand(time(NULL));
+	srand((unsigned int)time(NULL));
 	for (int i = 0; i<5; ++i)
 	{
 		system("cls");
@@ -126,11 +126,11 @@ bool MeetingSage::Proceed(Character * Character)
 		}
 		else if ((Character->GetWisdom()) > 13 && (Character->GetWisdom()) < 18)
 		{
-			Sleep(1.2 * 1000);
+			Sleep(1200);
 		}
 		else
 		{
-			Sleep(0.8 * 1000);
+			Sleep(800);
 		}
 
 		
@@ -138,7 +138,7 @@ bool MeetingSage::Proceed(Character * Character)
 
 	system("cls");
 	cout << "Insert numbers in properly sequence" << endl;
-	for (int i = 0; i < numbers.size(); i++)
+	for (unsigned int i = 0; i < numbers.size(); i++)
 	{
 		int el;
 
@@ -158,7 +158,7 @@ bool MeetingSage::Proceed(Character * Character)
 
 	int correct = 0;
 	int wrong = 0;
-	for (int z = 0; z < numbers.size(); z++)
+	for (unsigned int z = 0; z < numbers.size(); z++)
 	{
 		if (my_numbers[z] == numbers[z])
 		{

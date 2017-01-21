@@ -133,7 +133,7 @@ bool ImprisonmentDungeons::Proceed(Character * Character)
 				cout << endl << "Too slow: +0 AGILITY" << endl;
 			}
 			
-			srand(time(NULL));
+			srand((unsigned int)time(NULL));
 			if (rand() % 10 == 4)
 			{
 				text1.load("no_fall.txt");

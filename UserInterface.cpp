@@ -50,7 +50,7 @@ int UserInterface::choice(std::vector <std::string> text, std::string invit) {
 	if (invit != " ")
 		write(invit);
 	write(posibilitys[rand() % 4]);
-	for (int i = 0; i < text.size(); i++)
+	for (unsigned int i = 0; i < text.size(); i++)
 		write(std::to_string(i + 1) + ")\t" + text[i]);
 	return getAns(text.size());
 }

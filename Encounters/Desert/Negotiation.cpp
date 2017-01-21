@@ -1,7 +1,7 @@
 #include "Desert.h"
 
 bool Desert::Negotiation(void) {
-	srand(time(NULL));
+	srand((unsigned int)time(NULL));
 
 	cout << "-Hello My Dear..." << endl;
 	int rand_choice = rand() % 2 + 1;

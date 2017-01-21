@@ -9,7 +9,7 @@ bool Neverending_Tower_Hard::First_Floor(Character * Character)
 	system("pause");
 	bool pass = false;
 	bool one = false;
-	srand(time(NULL));
+	srand((unsigned int)time(NULL));
 	while (1)
 	{
 		int probability = rand() % 100;
@@ -98,7 +98,7 @@ bool Neverending_Tower_Hard::First_Floor(Character * Character)
 }
 bool Neverending_Tower_Hard::Second_Floor(Character * Character)
 {
-	srand(time(NULL));
+	srand((unsigned int)time(NULL));
 	int points;
 	int choose;
 	vector<int> Good_way;
@@ -153,7 +153,7 @@ bool Neverending_Tower_Hard::Second_Floor(Character * Character)
 }
 bool Neverending_Tower_Hard::Third_Floor(Character * Character)
 {
-	srand(time(NULL));
+	srand((unsigned int)time(NULL));
 	
 	int choose;
 	int translation;

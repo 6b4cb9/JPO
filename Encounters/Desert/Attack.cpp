@@ -1,7 +1,7 @@
 #include "Desert.h"
 
 bool Desert::Attack(void) {
-	srand(time(NULL));
+	srand((unsigned int)time(NULL));
 	int rand_choice = rand() % 3;
 	if (rand_choice == 1) {
 		cout << "Oh no, it called The Mongolian death worm!  -80 hp" << endl;

@@ -1,7 +1,7 @@
 #include "Cave.h"
 
 bool Cave::Dreisine(void) {
-	srand(time(NULL));
+	srand((unsigned int)time(NULL));
 	cout << "Look! Dreisine! (pol. drezyna) Let's see where it leads!" << endl;
 	int rand_choice = rand() % (2);
 	char choice;

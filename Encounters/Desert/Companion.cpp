@@ -1,7 +1,7 @@
 #include "Desert.h"
 
 bool Desert::Companion(void) {
-	srand(time(NULL));
+	srand((unsigned int)time(NULL));
 	cout << "The Man in Black is attacking the Gunslinger! You must defend yourself!" << endl;
 	Sleep(500);
 	cout << "In this fight your new friend adds +5 to your strength and toughness" << endl;

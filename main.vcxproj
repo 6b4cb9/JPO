@@ -159,6 +159,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Arena.h" />
     <ClInclude Include="Camp.h" />
     <ClInclude Include="Character.h" />
     <ClInclude Include="Dungeons.h" />
@@ -189,6 +190,8 @@
     <ClInclude Include="Location.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="Meadow.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="MonsterComposite.h" />
     <ClInclude Include="Mountain.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Route.h" />
@@ -199,6 +202,7 @@
     <ClInclude Include="Walk.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Arena.cpp" />
     <ClCompile Include="Camp.cpp" />
     <ClCompile Include="Character.cpp" />
     <ClCompile Include="Dungeons.cpp" />
@@ -238,6 +242,8 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="Meadow.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="MonsterComposite.cpp" />
     <ClCompile Include="Mountain.cpp" />
     <ClCompile Include="Route.cpp" />
     <ClCompile Include="TestLocation.cpp" />

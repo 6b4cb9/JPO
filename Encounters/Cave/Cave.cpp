@@ -7,7 +7,7 @@ bool Cave::Proceed(Character* t_Adventurer) {
 	Adventurer = t_Adventurer;
 	system("cls");
 	cout << "You have just came into dark cave..." << endl;
-	srand(time(NULL));
+	srand((unsigned int)time(NULL));
 	int lost_gold = 1 + rand() % (11);
 	Adventurer->SetGold(Adventurer->GetGold() - lost_gold);
 	cout << "Oh no! You have lost " << lost_gold << " gold coins!" << endl;

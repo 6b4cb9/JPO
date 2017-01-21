@@ -37,7 +37,7 @@ bool Challengefunction1(Character* h)
 
 	string tab = "qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM";
 	
-	srand(time(NULL));
+	srand((unsigned int)time(NULL));
 	for (int j=1; good!=10; j++)
 	{
 	
@@ -51,7 +51,7 @@ bool Challengefunction1(Character* h)
 		time(&t1);
 		odp = _getch();
 		time(&t2);
-		roz = difftime(t2, t1);
+		roz = (int)difftime(t2, t1);
 
 		if (odp == rr && roz < 2)
 		{

@@ -160,3 +160,4 @@ string Character::GetProfession()
 	return profession;
 }
 
+Character::Character(){}

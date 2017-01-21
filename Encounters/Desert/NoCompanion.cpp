@@ -1,7 +1,7 @@
 #include "Desert.h"
 
 bool Desert::NoCompanion(void){
-	srand(time(NULL));
+	srand((unsigned int)time(NULL));
 	cout << "I don't trust you. If you answer correctly, you can go. Otherwise, I will attack you." << endl;
 	cout << "In two years, I will be looking for The Man in the Black for ten years. How long have I been looking for him? " << endl;
 	string answer;

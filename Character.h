@@ -13,6 +13,7 @@ using namespace std;
 class Character
 {
 public:
+	Character();
 	Character(int);
 	~Character();
 	int strength;

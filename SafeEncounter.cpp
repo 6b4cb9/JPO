@@ -1,5 +1,5 @@
 #include "SafeEncounter.h"
-#include "stdafx.h"
+//#include "stdafx.h"
 
 void SafeEncounter::Rest(Character* character) {
 	if (character->GetHP() < 6*character->GetToughness()) {

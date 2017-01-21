@@ -4,7 +4,7 @@ using namespace std;
 bool Desert::East(void) {
 	bool check;
 	char choice;
-	srand(time(NULL));
+	srand((unsigned int)time(NULL));
 	int rand_choice = rand() % 2 + 1;
 
 	if (rand_choice == 1) {

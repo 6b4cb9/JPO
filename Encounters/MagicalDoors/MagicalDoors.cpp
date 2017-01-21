@@ -163,7 +163,7 @@ bool Challengefunction2(Character* h)
 	string ans;
 	string pass = "POTATOES";
 	string X = "XXXXXXXX";
-	srand(time(NULL));
+	srand((unsigned int)time(NULL));
 	cout << "There was something hide in a bush. You approached a bit to this place and you found magical doors in the middle of the bush. Unfortunatelly the doors are locked " << endl;
 	Sleep(5000);
 	cout << " WAIT! There is a sign: " << endl;
