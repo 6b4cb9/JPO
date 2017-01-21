@@ -1,5 +1,4 @@
 #include "SafeEncounter.h"
-//#include "stdafx.h"
 
 void SafeEncounter::Rest(Character* character) {
 	if (character->GetHP() < 6*character->GetToughness()) {
@@ -27,7 +26,7 @@ void SafeEncounter::Trade(Character* character) {
 			int quantity = shop.GetQuantity();
 			double FreeCapacity = character->myEQ.GetCapacity() - character->myEQ.SumWeights();
 			if (decision < quantity) { //check if item exist
-				Item* proposedItem = shop.GetItem(decision - 1);
+				Item* proposedItem = shop.Get(decision - 1);
 				if ((proposedItem->GetPrice() <= character->GetGold()) && proposedItem->GetWeight() <= FreeCapacity) //check if the character have enough gold and capacity to buy
 				{
 					character->myEQ.Add(proposedItem);
@@ -44,9 +43,9 @@ void SafeEncounter::Trade(Character* character) {
 			cin >> decision;
 			int quantity = character->myEQ.GetQuantity();
 			double FreeShopCapacity = shop.GetCapacity() - shop.SumWeights();
-			if (!((character->myEQ.GetItem(decision - 1))->IsWeared())) {
+			if (!((character->myEQ.Get(decision - 1))->IsWeared())) {
 				if (decision < quantity) {
-					Item* proposedItem = character->myEQ.GetItem(decision - 1);
+					Item* proposedItem = character->myEQ.Get(decision - 1);
 						if (proposedItem->GetWeight() <= FreeShopCapacity) //check if the character have enough gold and capacity to buy
 					{
 						shop.Add(proposedItem);

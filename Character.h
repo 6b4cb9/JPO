@@ -2,19 +2,22 @@
 #ifndef _CHARACTER_
 #define _CHARACTER_
 class Character;
-class EQ;
+
 using namespace std;
 
 #include <string>
 #include "Item.h"
-#include "Location.h"
+class Location;
 #include "EQ.h"
+#include "Armor.h"
+#include "RangedWeapon.h"
+#include "MeleeWeapon.h"
 
 class Character
 {
 public:
-	Character();
 	Character(int);
+	Character();
 	~Character();
 	int strength;
 	int toughness;
@@ -32,7 +35,7 @@ public:
 	Item * meleeWeapon;
 	Location * currentLocation;
 public:
-	EQ *myEQ;
+	EQ myEQ;
 	virtual int MeleeAttack();
 	virtual int RangedAttack();
 	//Setters
@@ -49,6 +52,8 @@ public:
 	void SetGold(int IVariable);
 	void SetMana(int IVariable);
 	void SetHP(int IVariable);
+	void SetName(string);
+	void SetProfession(string);
 
 	//Getters
 	Item * GetArmor();

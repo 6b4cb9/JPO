@@ -159,7 +159,11 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AbstractItemFactory.h" />
+    <ClInclude Include="AetherArmor.h" />
+    <ClInclude Include="AetherArmorFactory.h" />
     <ClInclude Include="Arena.h" />
+    <ClInclude Include="Armor.h" />
     <ClInclude Include="Camp.h" />
     <ClInclude Include="Character.h" />
     <ClInclude Include="Dungeons.h" />
@@ -184,17 +188,21 @@
     <ClInclude Include="Encounters\Owl\Owl.h" />
     <ClInclude Include="Encounters\Tavern\Tavern.h" />
     <ClInclude Include="EQ.h" />
+    <ClInclude Include="Food.h" />
     <ClInclude Include="Forest.h" />
     <ClInclude Include="GhastlyHeath.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Location.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="Meadow.h" />
+    <ClInclude Include="MeleeWeapon.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="MonsterComposite.h" />
     <ClInclude Include="Mountain.h" />
+    <ClInclude Include="RangedWeapon.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Route.h" />
+    <ClInclude Include="SafeEncounter.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="TestLocation.h" />
     <ClInclude Include="Tower.h" />
@@ -202,7 +210,11 @@
     <ClInclude Include="Walk.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AbstractItemFactory.cpp" />
+    <ClCompile Include="AetherArmor.cpp" />
+    <ClCompile Include="AetherArmorFactory.cpp" />
     <ClCompile Include="Arena.cpp" />
+    <ClCompile Include="Armor.cpp" />
     <ClCompile Include="Camp.cpp" />
     <ClCompile Include="Character.cpp" />
     <ClCompile Include="Dungeons.cpp" />
@@ -235,6 +247,7 @@
     <ClCompile Include="Encounters\Owl\Owl.cpp" />
     <ClCompile Include="Encounters\Tavern\Tavern.cpp" />
     <ClCompile Include="EQ.cpp" />
+    <ClCompile Include="Food.cpp" />
     <ClCompile Include="Forest.cpp" />
     <ClCompile Include="GhastlyHeath.cpp" />
     <ClCompile Include="Item.cpp" />
@@ -242,10 +255,13 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="Meadow.cpp" />
+    <ClCompile Include="MeleeWeapon.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="MonsterComposite.cpp" />
     <ClCompile Include="Mountain.cpp" />
+    <ClCompile Include="RangedWeapon.cpp" />
     <ClCompile Include="Route.cpp" />
+    <ClCompile Include="SafeEncounter.cpp" />
     <ClCompile Include="TestLocation.cpp" />
     <ClCompile Include="Tower.cpp" />
     <ClCompile Include="UserInterface.cpp" />

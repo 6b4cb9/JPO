@@ -7,6 +7,7 @@ class Character;
 #include <string>
 #include <vector>
 #include <iostream>
+
 using namespace std;
 
 class EQ
@@ -16,22 +17,20 @@ private:
 	vector<Item*> content;
 public:
 	EQ();
-	~EQ() {}
-	void SetCapacity(int, int) {}
-	bool Add(Item*) { return 0; }
-	void Remove(int) {}
-	void View() {}
-	void VievWithDescriptions() {}
-	void Use(int, Character*) {}
-	double SumWeights() { return 0; }
-	int GetQuantity() {
-		return content.size();
-	}
-	double GetCapacity(void) { return capacity; }
-	Item* GetItem(int i) {
-		return content[i]; 
-	}
+	~EQ();
+	void SetCapacity(int strength, int toughness);
+	bool Add(Item* item);
+	void Remove(int ind);
+	void View();
+	void VievWithDescriptions();
+	void Use(int ind, Character* character);
+	double SumWeights();
+	void Refresh();
+	Item* Get(int ind);
+	int GetQuantity();
+	double GetCapacity(void);
 };
-
 #include "Item.h"
 #endif
+
+

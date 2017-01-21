@@ -1,17 +1,20 @@
+
 #include "Character.h"
+
+Character::Character(): armor(Armor::NoArmor()), rangedWeapon(RangedWeapon::NoRangedWeapon()), meleeWeapon(MeleeWeapon::NoMeleeWeapon()) {}
 
 Character::Character(int lvl)
 {
 	if (lvl == 1) {
-		strength=11;
-		toughness=11;
-		agility=11;
-		intelligence=11;
-		wisdom=9;
-		charisma=11;
-		gold=1000;
-		hp=60;
-		mana=60;
+		strength = 11;
+		toughness = 11;
+		agility = 11;
+		intelligence = 11;
+		wisdom = 9;
+		charisma = 11;
+		gold = 1000;
+		hp = 60;
+		mana = 60;
 	}
 	else if (lvl == 2) {
 		strength = 14;
@@ -65,12 +68,12 @@ void Character::SetCurrentLocation(Location *arg) {
 void Character::SetStrength(int IVariable)
 {
 	strength = IVariable;
-	myEQ->SetCapacity(toughness , strength);
+	myEQ.SetCapacity(strength, toughness);
 }
 void Character::SetToughness(int IVariable)
 {
 	toughness = IVariable;
-	myEQ->SetCapacity(toughness, strength);
+	myEQ.SetCapacity(strength, toughness);
 }
 void Character::SetAgility(int IVariable)
 {
@@ -99,6 +102,16 @@ void Character::SetMana(int IVariable)
 void Character::SetHP(int IVariable)
 {
 	hp = IVariable;
+}
+
+void Character::SetName(string a)
+{
+	name = a;
+}
+
+void Character::SetProfession(string a)
+{
+	profession = a;
 }
 
 //Getters
@@ -159,5 +172,3 @@ string Character::GetProfession()
 {
 	return profession;
 }
-
-Character::Character(){}

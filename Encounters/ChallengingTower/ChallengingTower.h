@@ -7,6 +7,7 @@
 
 #pragma once
 #include "..\..\Character.h"
+#include "..\..\Encounter.h"
 #include <string>
 #include <iostream>
 #include <windows.h>
