@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4ADE7E47-002B-44BF-BBBD-2867D2323242}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FrankowskiFantasy</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractItemFactory.h" />
+    <ClInclude Include="AetherArmor.h" />
+    <ClInclude Include="AetherArmorFactory.h" />
+    <ClInclude Include="Arena.h" />
+    <ClInclude Include="Armor.h" />
+    <ClInclude Include="Camp.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="Dungeons.h" />
+    <ClInclude Include="EmptyLocation.h" />
+    <ClInclude Include="Encounter.h" />
+    <ClInclude Include="Encounters\BrokenTree\BrokenTree.h" />
+    <ClInclude Include="Encounters\Cave\Cave.h" />
+    <ClInclude Include="Encounters\ChallengingTower\ChallengingTower.h" />
+    <ClInclude Include="Encounters\DeepDownLow\DeepDownLow.h" />
+    <ClInclude Include="Encounters\Desert\Desert.h" />
+    <ClInclude Include="Encounters\Farm\Farm.h" />
+    <ClInclude Include="Encounters\FishStall\FishStall.h" />
+    <ClInclude Include="Encounters\FishStall\stdafx.h" />
+    <ClInclude Include="Encounters\Graveyard\Graveyard.h" />
+    <ClInclude Include="Encounters\ImprisonmentDungeons\ImprisonmentDungeons.h" />
+    <ClInclude Include="Encounters\ImprisonmentDungeons\Labyrinth.h" />
+    <ClInclude Include="Encounters\ImprisonmentDungeons\Load_from_file.h" />
+    <ClInclude Include="Encounters\MagicalDoors\MagicalDoors.h" />
+    <ClInclude Include="Encounters\Maze\Maze.h" />
+    <ClInclude Include="Encounters\MeetingSage\Load_from_file1.h" />
+    <ClInclude Include="Encounters\MeetingSage\MeetingSage.h" />
+    <ClInclude Include="Encounters\NeverEndingTower\Neverending-Tower_Hard.h" />
+    <ClInclude Include="Encounters\Owl\Owl.h" />
+    <ClInclude Include="Encounters\Tavern\Tavern.h" />
+    <ClInclude Include="EQ.h" />
+    <ClInclude Include="Food.h" />
+    <ClInclude Include="Forest.h" />
+    <ClInclude Include="GhastlyHeath.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="Location.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="Meadow.h" />
+    <ClInclude Include="MeleeWeapon.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="MonsterComposite.h" />
+    <ClInclude Include="Mountain.h" />
+    <ClInclude Include="RangedWeapon.h" />
+    <ClInclude Include="Route.h" />
+    <ClInclude Include="SafeEncounter.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TestLocation.h" />
+    <ClInclude Include="Tower.h" />
+    <ClInclude Include="UserInterface.h" />
+    <ClInclude Include="Walk.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AbstractItemFactory.cpp" />
+    <ClCompile Include="AetherArmor.cpp" />
+    <ClCompile Include="AetherArmorFactory.cpp" />
+    <ClCompile Include="Arena.cpp" />
+    <ClCompile Include="Armor.cpp" />
+    <ClCompile Include="Camp.cpp" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="Dungeons.cpp" />
+    <ClCompile Include="EmptyLocation.cpp" />
+    <ClCompile Include="Encounter.cpp" />
+    <ClCompile Include="Encounters\BrokenTree\BrokenTree.cpp" />
+    <ClCompile Include="Encounters\Cave\Cave.cpp" />
+    <ClCompile Include="Encounters\Cave\Dreisine.cpp" />
+    <ClCompile Include="Encounters\Cave\Goblin.cpp" />
+    <ClCompile Include="Encounters\ChallengingTower\ChallengingTower.cpp" />
+    <ClCompile Include="Encounters\DeepDownLow\DeepDownLow.cpp" />
+    <ClCompile Include="Encounters\Desert\Attack.cpp" />
+    <ClCompile Include="Encounters\Desert\Companion.cpp" />
+    <ClCompile Include="Encounters\Desert\Desert.cpp" />
+    <ClCompile Include="Encounters\Desert\East.cpp" />
+    <ClCompile Include="Encounters\Desert\Negotiation.cpp" />
+    <ClCompile Include="Encounters\Desert\NoCompanion.cpp" />
+    <ClCompile Include="Encounters\Desert\West.cpp" />
+    <ClCompile Include="Encounters\Farm\Farm.cpp" />
+    <ClCompile Include="Encounters\FishStall\FishStall.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Encounters\Graveyard\Graveyard.cpp" />
+    <ClCompile Include="Encounters\ImprisonmentDungeons\ImprisonmentDungeons.cpp" />
+    <ClCompile Include="Encounters\ImprisonmentDungeons\Labyrinth.cpp" />
+    <ClCompile Include="Encounters\ImprisonmentDungeons\Load_from_file.cpp" />
+    <ClCompile Include="Encounters\MagicalDoors\MagicalDoors.cpp" />
+    <ClCompile Include="Encounters\Maze\Maze.cpp" />
+    <ClCompile Include="Encounters\MeetingSage\Load_from_file1.cpp" />
+    <ClCompile Include="Encounters\MeetingSage\MeetingSage.cpp" />
+    <ClCompile Include="Encounters\NeverEndingTower\Neverending-Tower_Hard.cpp" />
+    <ClCompile Include="Encounters\Owl\Owl.cpp" />
+    <ClCompile Include="Encounters\Tavern\Tavern.cpp" />
+    <ClCompile Include="EQ.cpp" />
+    <ClCompile Include="Food.cpp" />
+    <ClCompile Include="Forest.cpp" />
+    <ClCompile Include="FrankowskiFantasy.cpp" />
+    <ClCompile Include="GhastlyHeath.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="Location.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Meadow.cpp" />
+    <ClCompile Include="MeleeWeapon.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="MonsterComposite.cpp" />
+    <ClCompile Include="Mountain.cpp" />
+    <ClCompile Include="RangedWeapon.cpp" />
+    <ClCompile Include="Route.cpp" />
+    <ClCompile Include="SafeEncounter.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TestLocation.cpp" />
+    <ClCompile Include="Tower.cpp" />
+    <ClCompile Include="UserInterface.cpp" />
+    <ClCompile Include="Walk.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
