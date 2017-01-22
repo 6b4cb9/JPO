@@ -1,4 +1,12 @@
-1. Fabryka postaci + pocz¹tek fab³y
-2. Ekran powitalny + otwarcie konsoli z odpowiednimi parametrami
-3. klasa Game
-4. fabu³a=lista zobowi¹zañ+flaga(obserwator)?
+Fajnie by by³o gdyby ka¿de opisanych wydarzen fabularnych pojawia³o siê na mapie g³ównej (jeœli to mo¿liwe i jeœli siê uda)
+1. S³ugsi barona Martinusa von Rosenhof rz¹dz¹cego krain¹ napadaj¹ wioskê (baron nie jest obecny s³ugosami dowodzi kapitan Karol von Gongola). Postaæ powinna dowiedzieæ siê ¿e w krainie Ÿle siê dzieje pod butem z³ego barona. Stary mêdrzec wioskowy Lukas Jopus informuje gracza, ¿e ruch oporo ukrywa siê w lesie. Wskazane dodanie areny do walki ze s³ugusami.
+2. Las. Przywódca ruchu oporu Sebastainus Gawlikus informuje o tym jak bardzo przesi¹kniêty chciwoœci¹ jest baron i dlaczego trzêsie krain¹. Zleca zadanie udania siê do dworu jego kuzyna ze wschodu Michaila Jedrzejkowycza i wykradzenia informacji co knuje baron.
+3. Dwie opcje: albo przekonanie Michaila do wspórpracy i otrzymanie zaproszenia na przyjêcie u barona w jego zamczysku albo pokonanie Michaila si³¹ i odczytanie z korespondecji, ¿e tajemn¹ broñ buduje czarodziejka barona Magdalena Fisher.
+4. Przyjêcie u barona, poznanie samego barona który wydaje siê ch³ody i dystyngowany. Przemieszczanie siê po zamczysku, trafienie na œlad prowadz¹cy do magazynu tajnej broni.
+4. Przekonanie lub pokonanie czarodziejki, trafinie na œlad magazynu tajnej broni.
+5. Magazyn tajnej broni chroniony przez hrabiego Bartolomeo Skrabaczowa. Trwa w nim budowa magicznego urz¹dzenia zdolnego przekierowywaæ magiczn¹ energiê z kosmosu na ca³¹ krainê. Zniszczenie broni.
+6. Przybycie barona. Ucieczka bohatera i poœcig przez si³y barona (quick time events?). Zakoñczony wpadniêciem w pu³apkê przygotowan¹ przez Gawlikusa.
+7. Gawlikus okazuje siê demonem zniszczenia przys³anym przez moce piekielne, którego baron chcia³ pokonaæ nie zwa¿aj¹c na cierpi¹cych poddanych którzy i tak by skoñczyli marnie w przypadku zwyciêstwa si³ ciemnoœci reprezentowanych prze Gawlikusa. Ucieczka bohatera i poœcig Gawlikusa w swojej wa³œciwej demonicznej postaci. W pewnym momencie mêdrzeæ Jopus wskazuje boczn¹ œcie¿kê i ratuje bohatera a przekonany o jego szczerych intencjach wskazuje miejsce ukrycia legedarnej broni.
+8. Miejsce ukrycia broni i jej pozyskanie.
+9. Ostateczna walka z demonem Gawlikusem (powinna byæ trudna ale mile konieczny save przed ni¹). Przejêcie w³adzy w królestwie. Ukryta mo¿liwoœæ dodatkowego etapu z romansem z córk¹ barona. W przypadku nie odkrycia etapu koniec gry.
+10. Romans z córk¹ barona. Koniec gry.
